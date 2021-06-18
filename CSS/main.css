@@ -1334,22 +1334,6 @@ header .container {
   overflow: hidden;
 }
 
-.cards-set__img--width {
-  width: 450px;
-}
-
-@media screen and (min-width: 1200px) {
-  .cards-set__img--width {
-    width: 370px;
-  }
-}
-
-@media (min-width: 767px) and (max-width: 1199px) {
-  .cards-set__img--width {
-    width: 354px;
-  }
-}
-
 /* модалка */
 .backdrop {
   position: fixed;
