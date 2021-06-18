@@ -1,0 +1,28 @@
+body {
+  color: var(--primary-text-color);
+  font-family: $primary_FontFamily;
+}
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  list-style: none;
+}
+button {
+  font-family: inherit;
+  border: 1px solid transparent;
+}
+img {
+  display: block;
+}
+.section,
+.section-apps,
+.section-clients,
+.section-portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}

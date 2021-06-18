@@ -1,0 +1,39 @@
+:root {
+  --primary-text-color: #212121;
+  --contacts-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --main-title-color: #ffffff;
+  --footer-links-color: rgba(255, 255, 255, 0.6);
+  --footer-background: #2f303a;
+  --team-background: #f5f4fa;
+  --box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  --filters-backgraund: #eeeeee;
+  --header-border: #ececec;
+  --button-shadow-hover: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  --background-hero-gradient: rgba(47, 48, 58, 0.4);
+  --background-hero: #c4c4c4;
+  --cards-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
+    0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  --bg-icons: #ffffff;
+  --icon: #afb1b8;
+  --border-color: #afb1b8;
+  --bg-icon-footer: rgba(255, 255, 255, 0.1);
+  --title-images-bg: rgba(47, 48, 58, 0.8);
+  --filters-bg: rgba(33, 150, 243, 0.9);
+  --modal-bg: rgba(0, 0, 0, 0.2);
+  --modal-box-shadow: 0px 2px 1px 0 rgba(0, 0, 0, 0.2), 0px 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0 rgba(0, 0, 0, 0.12);
+  --input: rgba(33, 33, 33, 0.2);
+  --button-form: #188ce8;
+  --button-form-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  --button-form-footer: rgba(255, 255, 255, 0.3);
+  --placeholder: rgba(117, 117, 117, 0.5);
+  --modal-button: rgba(0, 0, 0, 0.1);
+}
+
+// font family
+
+$primary_FontFamily: Roboto, sans-serif;
+$FontFamily_Logo: Raleway, sans-serif;
