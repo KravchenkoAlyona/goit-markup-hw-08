@@ -28,6 +28,11 @@
                     <li><a href="" class="container-nav__link">Контакты</a></li>
                 </ul>
             </nav>
+            <button  type="button" class="header-mobile__menu" data-menu-button>
+                <svg class="header-mobile__icon">
+                    <use href="./images/svg/sprite.svg#icon-menu-mobl"></use>
+                </svg>
+            </button>
             <ul class="header-contacts">
                 <li><a lang="en" href="mailto:info@devstudio.com" class="header-contacts__item">
                     <svg class="header-contacts__icon">
@@ -38,6 +43,42 @@
                         <use href="./images/svg/sprite.svg#icon-smartphone"></use>
                     </svg>+38 096 111 11 11</a></li>
             </ul>
+    </div>
+    <div class="mobile-menu" data-menu>
+        <div class=" mobile-menu__container">
+            <button type="button" class="mobile-menu__close-btn" data-menu-close>
+                <svg class="mobile-menu__icon-close">
+                    <use href="./images/svg/sprite.svg#close-mobl-menu"></use>
+                </svg>
+            </button>
+            <ul class="mobile-menu__nav">
+                <li class="mobile-menu__item"><a href="" class="mobile-menu__link mobile-menu__link-current ">Студия</a></li>
+                <li class="mobile-menu__item"><a href="./portfolio.html" class="mobile-menu__link">Портфолио</a></li>
+                <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Контакты</a></li>
+            </ul>
+            <ul class="mobile-menu__contacts">
+                <li class="mobile-menu__contacts-item  mobile-menu__phone">
+                    <a href="tel:+380961111111" class="mobile-menu__contacts-link mobile-menu__phone">+38 096 111 11 11</a>
+                </li>
+                <li class="mobile-menu__contacts-item mobile-menu__email">
+                    <a href="mailto:info@devstudio.com" class="mobile-menu__contacts-link mobile-menu__email">info@devstudio.com</a>
+                </li>
+            </ul>
+            <ul class="mobile-menu__social">
+                <li class="mobile-menu__social-item">
+                    <a href="" class="mobile-menu__social-links mobile-menu__instagram">Instagram</a>
+                </li>
+                <li class="mobile-menu__social-item">
+                    <a href="" class="mobile-menu__social-links mobile-menu__twitter">Twitter</a>
+                </li>
+                <li class="mobile-menu__social-item">
+                    <a href="" class="mobile-menu__social-links mobile-menu__facebook">Facebook</a>
+                </li>
+                <li class="mobile-menu__social-item">
+                    <a href="" class="mobile-menu__social-links">Linkedin</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </header>
 <main >
@@ -84,12 +125,12 @@
         <h2  class="section-apps__title">Чем мы занимаемся</h2>
         <ul class="section-apps__list">
             <li class="section-apps__item" >
-                <!-- <picture class="picture"> -->
+                <picture class="picture">
                     <source srcset="./images/what-are-we-doing/img-webp.webp 1x, ./images/what-are-we-doing/img1@2x-webp.webp 2x" media="(min-width: 1200px)"
                     type="image/webp">
                     <source srcset="./images/what-are-we-doing/img.jpg 1x, ./images/what-are-we-doing/img1@2x.jpg 2x" media="(min-width: 1200px)">
             
-                    <img src="./images/what-are-we-doing/img.jpg" alt="програмирование" />
+                    <img src="#" alt="програмирование" />
                 </picture>
                 <div class="section-apps__bg" >
                     <p class="section-apps__description">Десктопные приложения</p>
@@ -102,7 +143,7 @@
                     <source srcset="./images/what-are-we-doing/изображение2.jpg 1x, ./images/what-are-we-doing/img2@2x.jpg 2x"
                     media="(min-width: 1200px)">
                 
-                    <img src="./images/what-are-we-doing/изображение2.jpg"  alt="програмирование" />
+                    <img src="#"  alt="програмирование" />
                 </picture>
                 <div class="section-apps__bg" >
                     <p class="section-apps__description">Мобильные приложения</p>
@@ -115,7 +156,7 @@
                     <source srcset="./images/what-are-we-doing/изображение3.jpg 1x, ./images/what-are-we-doing/img3@2x.jpg 2x"
                     media="(min-width: 1200px)">
                 
-                    <img src="./images/what-are-we-doing/изображение3.jpg"  alt="програмирование" />
+                    <img src="#"  alt="програмирование" />
                 </picture>
                 <div class="section-apps__bg" >
                     <p class="section-apps__description">Дизайнерские решения</p>
@@ -148,7 +189,7 @@
                                 media="(min-width: 480px)" type="image/webp">
                             <source srcset="./images/our-team/mobl/portr1-mobl.jpg 1x, ./images/our-team/mobl/portr1-mobl@2x.jpg 2x"
                                 media="(min-width: 480px)">
-                            <img class="team-set__images" src="./images/our-team/desktop/портрет1.jpg "  alt="Игорь Демьяненко">
+                            <img class="team-set__images" src="#"  alt="Игорь Демьяненко">
                         </picture>
                     </div>
                     <div class="team-profile">
@@ -202,7 +243,7 @@
                                 media="(min-width: 480px)" type="image/webp">
                             <source srcset="./images/our-team/mobl/portr2-mobl.jpg 1x, ./images/our-team/mobl/portr2-mobl@2x.jpg 2x"
                                 media="(min-width: 480px)">
-                            <img class="team-set__images" src="./images/our-team/desktop/портрет2.jpg" alt="Ольга Репина">
+                            <img class="team-set__images" src="#" alt="Ольга Репина">
                         </picture>
                     </div>
                     <div class="team-profile">
@@ -256,7 +297,7 @@
                                 media="(min-width: 480px)" type="image/webp">
                             <source srcset="./images/our-team/mobl/portr3-mobl.jpg 1x, ./images/our-team/mobl/portr3-mobl@2x.jpg 2x"
                                 media="(min-width: 480px)">
-                            <img class="team-set__images" src="./images/our-team/desktop/портрет3.jpg" alt="Николай Тарасов">
+                            <img class="team-set__images" src="#" alt="Николай Тарасов">
                         </picture>
                     </div>
                     <div class="team-profile">
@@ -310,7 +351,7 @@
                                 media="(min-width: 480px)" type="image/webp">
                             <source srcset="./images/our-team/mobl/portr4-mobl.jpg 1x, ./images/our-team/mobl/portr4-mobl@2x.jpg 2x"
                                 media="(min-width: 480px)">
-                            <img class="team-set__images" src="./images/our-team/desktop/портрет4.jpg" alt="Михаил Ермаков">
+                            <img class="team-set__images" src="#" alt="Михаил Ермаков">
                         </picture>
                     </div>
                     <div class="team-profile">
@@ -409,49 +450,51 @@
 
     <footer class="footer">
         <div class="container-footer">
-        <div class="footer-nav">
-        <a lang="en" href="" class="footer-nav__logo">Web<span class="footer-nav__logo--white">Studio</span></a>
-            <address class="footer-nav__adress">
-                <p class="footer-nav__location">г. Киев, пр-т Леси Украинки, 26</p>
-                <ul class="footer-nav__list">
-                    <li ><a lang="en" href="mailto:info@devstudio.com" class="footer-nav__contacts">info@devstudio.com</a></li>
-                    <li class="footer-nav__item"><a href="tel:+380961111111" class="footer-nav__contacts">+38 096 111 11 11</a></li>
-                </ul>
-            </address>
-        </div>
-        <div>
-            <h3 class="footer-nav__title">Присоединяйтесь</h3>
-            <ul class="footer-icon__list">
-                <li class="footer-icon__item" >
-                    <a class="footer-icon__link" href="">
-                        <svg class="footer-icon__img" >
-                            <use href="./images/svg/sprite.svg#icon-instagram"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="footer-icon__item" >
-                    <a class="footer-icon__link" href="">
-                        <svg class="footer-icon__img" >
-                            <use href="./images/svg/sprite.svg#icon-twitter"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="footer-icon__item" >
-                    <a class="footer-icon__link" href="">
-                        <svg class="footer-icon__img" >
-                            <use href="./images/svg/sprite.svg#icon-facebook"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="footer-icon__item" >
-                    <a class="footer-icon__link" href="">
-                        <svg class="footer-icon__img" >
-                            <use href="./images/svg/sprite.svg#icon-linkedin"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-        </div>
+            <div class="footer-container__tablet">
+                <div class="footer-nav">
+                <a lang="en" href="" class="footer-nav__logo">Web<span class="footer-nav__logo--white">Studio</span></a>
+                    <address class="footer-nav__adress">
+                        <p class="footer-nav__location">г. Киев, пр-т Леси Украинки, 26</p>
+                        <ul class="footer-nav__list">
+                            <li ><a lang="en" href="mailto:info@devstudio.com" class="footer-nav__contacts">info@devstudio.com</a></li>
+                            <li class="footer-nav__item"><a href="tel:+380961111111" class="footer-nav__contacts">+38 096 111 11 11</a></li>
+                        </ul>
+                    </address>
+                </div>
+                <div>
+                    <h3 class="footer-nav__title">Присоединяйтесь</h3>
+                    <ul class="footer-icon__list">
+                        <li class="footer-icon__item" >
+                            <a class="footer-icon__link" href="">
+                                <svg class="footer-icon__img" >
+                                    <use href="./images/svg/sprite.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-icon__item" >
+                            <a class="footer-icon__link" href="">
+                                <svg class="footer-icon__img" >
+                                    <use href="./images/svg/sprite.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-icon__item" >
+                            <a class="footer-icon__link" href="">
+                                <svg class="footer-icon__img" >
+                                    <use href="./images/svg/sprite.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-icon__item" >
+                            <a class="footer-icon__link" href="">
+                                <svg class="footer-icon__img" >
+                                    <use href="./images/svg/sprite.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <div class="form-container">
                 <h2 class="form-container__title">Подпишитесь на рассылку</h2>
                 <form action="#" class="footer-form">
@@ -519,6 +562,7 @@
 <!-- modal js -->
 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
 
