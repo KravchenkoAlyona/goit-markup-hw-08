@@ -2,6 +2,7 @@
 
 .section-apps__title {
   display: none;
+
   @media screen and (min-width: 1200px) {
     display: block;
     font-size: 36px;
@@ -12,6 +13,7 @@
 }
 .section-apps__title {
   display: none;
+
   @media screen and (min-width: 1200px) {
     display: block;
     margin-bottom: 0px;
@@ -20,6 +22,7 @@
 }
 .section-apps__item {
   display: none;
+
   @media screen and (min-width: 1200px) {
     display: block;
     &:not(:first-child) {
@@ -29,6 +32,7 @@
 }
 .section-apps__list {
   display: none;
+
   @media screen and (min-width: 1200px) {
     position: relative;
     display: flex;
@@ -38,6 +42,7 @@
 }
 .section-apps__bg {
   display: none;
+
   @media screen and (min-width: 1200px) {
     position: absolute;
     display: flex;
