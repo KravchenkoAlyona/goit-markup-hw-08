@@ -1,6 +1,7 @@
 .container {
   padding-left: 15px;
   padding-right: 15px;
+  min-width: 480px;
 
   header & {
     display: flex;

@@ -7,7 +7,7 @@
     ),
     url(../images/background/background-mob.jpg);
   height: 400px;
-  max-width: 480px;
+  min-width: 480px;
 
   text-transform: uppercase;
   background-size: cover;
@@ -37,7 +37,6 @@
       ),
       url(../images/background/background-tablet.jpg);
     height: 400px;
-    max-width: 768px;
   }
 
   @media (min-device-pixel-ratio: 2) and (min-width: 768px),

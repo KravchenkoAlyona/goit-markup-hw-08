@@ -187,6 +187,7 @@
 }
 .footer-form {
   margin-top: 20px;
+  position: relative;
 }
 .footer-form__email {
   width: 358px;
@@ -225,12 +226,14 @@
   box-shadow: var(--button-form-shadow);
   left: 140px;
   bottom: 60px;
+  transform: translate(-10%, 115%);
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   @media (min-width: 768px) and (max-width: 1199px) {
-    left: 300px;
-    bottom: 60px;
+    left: 0;
+    bottom: 0;
+    transform: translate(140%, 0);
   }
 
   @media screen and (min-width: 1200px) {
@@ -238,6 +241,7 @@
     margin-left: 12px;
     top: 0;
     left: 0;
+    transform: translate(-3%, 0%);
   }
 }
 .footer-form__icon {
