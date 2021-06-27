@@ -1284,6 +1284,7 @@ header .container {
 @media screen and (min-width: 1200px) {
   .footer-form__email {
     width: 358px;
+    margin-bottom: 0px;
   }
 }
 
